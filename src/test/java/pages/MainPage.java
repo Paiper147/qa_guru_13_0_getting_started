@@ -14,6 +14,7 @@ public class MainPage {
         return this;
     }
 
+    //two variants:
     //for successfulSearchTestWithNewPageObjectsTest()
     public MainPage typeSearchMain(String value){
         searchInput.setValue(value).pressEnter();
